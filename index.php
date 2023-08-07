@@ -26,9 +26,9 @@
             </div>
             <ul>
                 <li><a href="#"><label for="inicio">Inicio</label></a></li>
-                <li><a href="registro.php"><label for="inicio">Registrar Viajeros</label></a></li>
+                <li><a href="registrarViajero.php"><label for="inicio">Registrar Viajeros</label></a></li>
                 <li><a href="listado.php"><label for="inicio">Visualizar Informe de Viajes</label></a></li>
-                <li><a href="cerrar.php"><label for="inicio">Cerra Sesión</label></a></li>
+                <li><a href="cerrar.php"><label for="inicio">Cerrar Sesión</label></a></li>
             </ul>
         </div>
         
