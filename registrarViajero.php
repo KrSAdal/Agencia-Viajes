@@ -1,5 +1,7 @@
-<?php
-
+<?php 
+    session_start();
+    if(isset($_SESSION['id']) && isset($_SESSION['usuario'])){
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +34,7 @@
         </div>
 
         <div class="header">
-            <form action="registrar.php" method="POST">
+            <form action="funcionregistrar.php" method="POST">
 
                 <div class="mb-3">
                     <label for="1nombre" class="form-label">Primer Nombre</label>
@@ -86,3 +88,6 @@
 </body>
 
 </html>
+<?php }else{
+    header('location: ../index.php');
+} ?>
